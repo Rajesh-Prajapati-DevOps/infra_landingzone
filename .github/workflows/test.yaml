@@ -41,7 +41,8 @@ jobs:
         run: terraform init
 
       - name: Terraform Format Check
-        run: terraform fmt -check || true
+        run: terraform fmt -check
+        continue-on-error: true
 
       - name: Terraform Validate
         run: terraform validate

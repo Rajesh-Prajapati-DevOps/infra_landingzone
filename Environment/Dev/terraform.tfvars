@@ -7,4 +7,9 @@ rgs= {
         name="dev_rg2"
         location="centralindia"
     }
+
+    rg3= {
+        name="dev_rg3"
+        location="centralindia"
+    }
 }

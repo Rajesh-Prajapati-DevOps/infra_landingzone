@@ -24,7 +24,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./Enviornment/Dev
+        working-directory: ./Environment/Dev
 
     steps:
 
